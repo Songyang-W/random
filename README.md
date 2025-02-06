@@ -6,6 +6,7 @@ open your terminal
 run 
 ```
 mkdir -p ~/repos/random/
+cd ~/repos/random/
 git clone https://github.com/Songyang-W/random.git
 ```
 after download the code, go to the directory by
