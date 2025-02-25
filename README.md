@@ -18,7 +18,8 @@ chmod 777 w2n.py
 
 ### use code
 ##### coordinate calculator
-cd ~/repos/random/
+```cd ~/repos/random/```
+
 neuroglancer to webknossos: 
 `./n2w.py "x,y,z"` <br>
 webknossos to neuroglancer: 
