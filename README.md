@@ -26,3 +26,6 @@ webknossos to neuroglancer:
 `./w2n.py "x,y,z"`
 
 example: `./n2w.py "24162, 19126, 3245" `
+
+[link to fine segmentated (15nm/pxl) testing model](https://spelunker.cave-explorer.org/#!middleauth+https://global.daf-apis.com/nglstate/api/v1/5522665323364352)
+[link to coarse segmentated (60nm/pxl) out of box model](https://spelunker.cave-explorer.org/#!middleauth+https://global.daf-apis.com/nglstate/api/v1/6380158698127360)
