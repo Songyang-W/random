@@ -22,11 +22,11 @@ def main():
                     print(f"Error: '{part}' is not a valid integer.")
                     sys.exit(1)
     
-    # Process the numbers: multiply the first two by 8 and leave the rest unchanged
+    # Process the numbers: multiply the first two by 2 (since the segmentation is 15nm/pxl and raw EM is 7.5nm/pxl)  and leave the rest unchanged
     processed = []
     for i, num in enumerate(numbers):
         if i < 2:
-            multiplied = num * 8
+            multiplied = num * 2
             processed.append(str(multiplied))
         else:
             processed.append(str(num))
