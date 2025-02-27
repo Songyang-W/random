@@ -18,11 +18,11 @@ def main():
         print("Error: All inputs must be integers.")
         sys.exit(1)
     
-    # Process the numbers: divide the first two by 8 and round down
+    # Process the numbers: divide the first two by 2(since the segmentation is 15nm/pxl and raw EM is 7.5nm/pxl) and round down
     processed = []
     for i, num in enumerate(numbers):
         if i < 2:
-            divided = num // 8
+            divided = num // 2
             processed.append(str(divided))
         else:
             processed.append(str(num))
